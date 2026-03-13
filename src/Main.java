@@ -92,7 +92,7 @@ public class Main {
 
                 case "help":
                     System.out.println("DIR         -->         Display current directory");
-                    System.out.println("TREE        -->        Display tree (Protected use)");
+                    System.out.println("TREE        -->         Display tree (Protected use)");
                     System.out.println("CD          -->         Change directory to home directory");
                     System.out.println("CD..        -->         Change directory up one level");
                     System.out.println("CD <path>   -->         Change directory to specified path");

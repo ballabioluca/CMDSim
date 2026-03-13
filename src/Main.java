@@ -45,7 +45,7 @@ public class Main {
                     boolean proceed = true;
                     System.out.println("Analyzing...");
                     try {
-                        Utils.checkComplexity(f, System.currentTimeMillis(), 1000);
+                        Utils.checkComplexity(f, System.currentTimeMillis(), 500);
                     } catch (Utils.TimeoutException e) {
                         System.out.print("Warning: Very large directory. Display anyway? (y/n): ");
                         String choice = sc.nextLine().toLowerCase();
